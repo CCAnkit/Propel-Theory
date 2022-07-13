@@ -58,20 +58,22 @@
 #### EndPoint and Feature 
 
 - 1) /api/businessCard/new
-method POST
-body {
-    name : String,
-    designation : String,
-    companyName : String,
-    contactNumber : String,
-    emailID : String,
-    websiteURL : String,
-    socialURL : String,
-    companyLogo : String,
-}
+
+    method POST
+    body {
+        name : String,
+        designation : String,
+        companyName : String,
+        contactNumber : String,
+        emailID : String,
+        websiteURL : String,
+        socialURL : String,
+        companyLogo : String,
+    }
 
 - 2) /api/businessCard/:cardId
-method GET
-headers {
-    id : cardId
-}
+    
+    method GET
+    headers {
+        id : cardId
+    }
