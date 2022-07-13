@@ -1,13 +1,13 @@
 # Propel-Theory-Assignment
 
 
-### Virtual Business Card
+## Virtual Business Card
 
 
-#### Assignment that is based on restfull API using Nodejs, Express.
+### Assignment that is based on restfull API using Nodejs, Express.
 
 
-#### Backend TeckStacks 
+### Backend TeckStacks 
 - NodeJS
 - Express
 - MongoDB
@@ -15,7 +15,7 @@
 - JavaScript
 
 
-#### Frontend TechStacks
+### Frontend TechStacks
 - HTML
 - CSS
 
