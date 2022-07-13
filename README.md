@@ -57,7 +57,7 @@
 
 #### EndPoint and Feature 
 
-1) /api/businessCard/new
+- 1) /api/businessCard/new
 method POST
 body {
     name : String,
@@ -70,7 +70,7 @@ body {
     companyLogo : String,
 }
 
-2) /api/businessCard/:cardId
+- 2) /api/businessCard/:cardId
 method GET
 headers {
     id : cardId
