@@ -1,13 +1,13 @@
 # Propel-Theory-Assignment
 
 
-## Virtual Business Card
+### Virtual Business Card
 
 
-### Assignment that is based on restfull API using Nodejs, Express.
+#### Assignment that is based on restfull API using Nodejs, Express.
 
 
-### Backend TeckStacks 
+#### Backend TeckStacks 
 - NodeJS
 - Express
 - MongoDB
@@ -15,10 +15,10 @@
 - JavaScript
 
 
-### Frontend TechStacks
+#### Frontend TechStacks
 - HTML
 - CSS
-
+- Postman for Testing
 
 #### Packages
 - express
@@ -29,6 +29,7 @@
 - nodemon
 - aws-sdk
 - multer
+- qrcode
 
 
 #### Goals
@@ -59,7 +60,7 @@
 
 - 1) /api/businessCard/new
 
-    method POST
+-   method POST
     body {
         name : String,
         designation : String,
@@ -73,7 +74,7 @@
 
 - 2) /api/businessCard/:cardId
     
-    method GET
+-   method GET
     headers {
         id : cardId
     }
