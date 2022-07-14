@@ -60,7 +60,7 @@
 
 - 1) /api/businessCard/new
 
--   method POST
+   method POST
     body {
         name : String,
         designation : String,
@@ -74,7 +74,7 @@
 
 - 2) /api/businessCard/:cardId
     
--   method GET
+   method GET
     headers {
         id : cardId
     }
